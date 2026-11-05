@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Page -Shopella</title>
+    {% load static%}
+    <link rel="stylesheet" href="{%static 'bootstrap/css/bootstrap.min.css'%}">
+    <script src="{%static 'bootstrap/js/bootstrap.min.js'%}"></script>
+
+
+</head>
+<body>
+    <h1 class="text-center text-warning">Contact Us!</h1>
+    <a href="{% url 'index'%}">Home Page</a> <br>
+    <a href="{% url 'about'%}">About Us</a>
+    <a href="{% url 'services'%}">Our Services</a> br
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eligendi harum nesciunt, quas omnis hic, repellat maiores libero beatae possimus earum iure maxime nobis reprehenderit voluptatibus architecto accusantium iusto excepturi.
+    Praesentium aliquam qui consequuntur at culpa accusamus inventore odit nobis assumenda fugiat natus nam commodi impedit tempore dolor, voluptatem, totam ipsam deleniti omnis maiores, magni amet alias sint? Eos, rerum?
+    Molestiae quasi possimus consectetur sequi. Pariatur, culpa itaque amet accusamus animi distinctio facere quas magnam, quidem exercitationem inventore veritatis quis esse nisi eveniet doloribus facilis quo aliquam ut provident dolore.</p>
+
+    <table class="table table-bordered">
+        <tr class="table-warning">
+            <th>Full Name</th>
+            <th>Email Address</th>
+            <th>Phone number</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>johndoe@gmail.com</td>
+            <td>0712345678</td>
+        </tr>
+         <tr class="table-danger">
+            <td>Tesh Githua</td>
+            <td>teshgithua@gmail.com</td>
+            <td>0712345678</td>
+        </tr>
+         <tr>
+            <td>Awino Joy</td>
+            <td>awino@gmail.com</td>
+            <td>0712345678</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage- Shopella</title>
+
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+<style>
+    img{
+        width: 300px;
+        height: 200px;
+    }
+</style>
+
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to Shopella</h1>
+    <a href="{% url 'contact' %}">Contact Us</a> <br>
+    <a href="{% url 'about' %}">About Us</a> <br>
+    <a href="/services">Services</a> <br>
+
+    <img src="{%static 'images/car.png'%}" alt="">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum amet consequuntur beatae voluptas. Debitis cum id placeat, explicabo odio quidem ipsa. Quibusdam ex vero dolorem in quas iusto tempore nihil.
+    Cupiditate dolorem saepe officia. Eos doloremque qui tenetur at eaque rerum, quas reiciendis debitis. Iusto illo cumque error ea. Nam tempora ullam rerum quis veritatis consequuntur, nobis deleniti placeat ratione!
+    Illum animi doloribus iusto corporis sunt quis, sint suscipit corrupti unde a mollitia sit sequi iure non, assumenda blanditiis odio incidunt, dolor possimus. Reiciendis ratione non, ab libero numquam molestias.</p>
+    <button>View More</button>
+</body>
+</html>

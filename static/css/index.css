@@ -1,0 +1,19 @@
+h1{
+    color: #ff3c00;
+    font-size: 40px;
+}
+
+p{
+    font-weight: bold;
+}
+
+button {
+    background-color: #ff3c00;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    cursor: pointer;
+}
